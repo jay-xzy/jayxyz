@@ -1,0 +1,135 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  color: #ddd;
+  padding: 10px;
+  text-rendering: optimizeLegibility;
+  /* cursor: url('images/cursor.png'), auto; 
+  VCROSDMono */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+  /* cursor: url('images/cursor-hover.png'), default; */
+}
+
+a:active {
+  color: #ddd;
+  text-decoration: none;
+}
+
+/*
+@font-face {
+  font-display: swap;
+  font-family: VCROSDMono;
+  font-style: normal;
+  font-weight: 100;
+  src: url(VCR_OSD_MONO.woff2) format("woff2"), url(https://adl-foundation.adidas.com/prod/v20.0.0/assets/fonts/yeezy/VCR_OSD_MONO.woff) format("woff")
+}
+*/
+
+.description {font-family: serif;}
+
+#leftbox {
+  float: left;
+  width: 30%;
+  font-size: 0.8em;
+  padding: 0px 0px 20px 20px;
+  display: block;
+}
+
+#middlebox {
+  float: left;
+  width: 40%;
+  font-size: 0.8em;
+  padding: 0px 0px 20px 20px;
+  display: block;
+}
+
+#rightbox {
+  float: right;
+  text-align: right;
+  width: 30%;
+  font-size: 0.8em;
+  display: block;
+}
+
+#bottomlogo {
+  position: fixed;
+  float: right;
+  text-align: right;
+  bottom: 0;
+  right: 1%;
+}
+
+.logo {
+  position: relative;
+  text-align: center;
+  top: 45px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.single {
+  float: left;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+  font-size: 0.8em;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  
+  #leftbox {font-size: 0.8em;}
+  #middlebox {font-size: 0.8em;}
+  #rightbox {font-size: 0.8em;}
+  
+  .column {
+    width: 100%;
+    top: 100px;
+  }
+
+  .single {
+    float: left;
+    width: 100%;
+    font-size: 0.8em;
+    padding: 20px;
+  }
+
+}
+
