@@ -132,7 +132,8 @@ a:active {
   }
   
   .logo {
-  width: 100px;
+  position: relative;
+  text-align: center;
   }
 
 }
