@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: VCROSDMono, Helvetica, sans-serif;
   font-style: normal;
   font-size: 1em;
   color: #ddd;
@@ -34,7 +34,7 @@ a:active {
   text-decoration: none;
 }
 
-/*
+
 @font-face {
   font-display: swap;
   font-family: VCROSDMono;
@@ -42,7 +42,7 @@ a:active {
   font-weight: 100;
   src: url(VCR_OSD_MONO.woff2) format("woff2"), url(https://adl-foundation.adidas.com/prod/v20.0.0/assets/fonts/yeezy/VCR_OSD_MONO.woff) format("woff")
 }
-*/
+
 
 .description {font-family: serif;}
 
